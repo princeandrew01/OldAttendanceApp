@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ViewLecturesActivity">
+
+    <item
+        android:id="@+id/action_add_sessions"
+        android:orderInCategory="1"
+        android:title="Add Lectures"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

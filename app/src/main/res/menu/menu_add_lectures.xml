@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddLecturesActivity">
+    <item
+        android:id="@+id/action_clear_list"
+        android:orderInCategory="1"
+        android:title="Clear List"
+        android:icon="@drawable/clear_all"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save_all"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_save_all"
+        android:title="Save All"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

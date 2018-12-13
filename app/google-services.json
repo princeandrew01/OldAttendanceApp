@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "1017937634940",
+    "firebase_url": "https://cmp6901attendanceapp.firebaseio.com",
+    "project_id": "cmp6901attendanceapp",
+    "storage_bucket": "cmp6901attendanceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017937634940:android:9986f2eabe4eecf4",
+        "android_client_info": {
+          "package_name": "com.jevon.studentrollrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017937634940-govkashe2479ghgo89jh2ekdga5pfsrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jevon.studentrollrecorder",
+            "certificate_hash": "24edd68ff9877e7e637397d8a5689ed93b031487"
+          }
+        },
+        {
+          "client_id": "1017937634940-c4r6dqi88gs1euhdae280jqruap921gv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jevon.studentrollrecorder",
+            "certificate_hash": "3d31d32a1fe7b0aa5fd8994cd7d00e1a7d81e393"
+          }
+        },
+        {
+          "client_id": "1017937634940-nfei5n7elgphu2c83vdlatf26fighki4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jevon.studentrollrecorder",
+            "certificate_hash": "5445dfbcb1cb80553257e5ce4aec639869a43844"
+          }
+        },
+        {
+          "client_id": "1017937634940-t5lj87uppd1slj3rs2h8sqeg36g4b38e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jevon.studentrollrecorder",
+            "certificate_hash": "77b37d4476902c7031c8c8aac2e966d849edfb08"
+          }
+        },
+        {
+          "client_id": "1017937634940-b0lmcu307nd0kdmoo576i342qdj38r94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGaX7W7-Uk9PNMVuMxH6eX_f1RmF5z7W8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017937634940-dre43ljbb43vugkvakl9m0e18ervisqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

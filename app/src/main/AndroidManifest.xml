@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jevon.studentrollrecorder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.NETWORK" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_checklist"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_present"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddCourseActivity"
+            android:label="@string/title_activity_add_course"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Scanner"
+            android:label="@string/title_activity_scanner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewCoursesActivity"
+            android:label="@string/title_activity_view_courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddLecturesActivity"
+            android:label="@string/title_activity_add_lectures"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewLecturesActivity"
+            android:label="@string/title_activity_view_lectures"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".service.IdCheckService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ViewCourseInfoActivity"
+            android:label="@string/title_activity_view_course_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewCourseAnalytics"
+            android:label="@string/title_activity_student_attendance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewStudentAnalyticsActivity"
+            android:label="@string/title_activity_view_student_analytics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewIndividualStudentAnalytics"
+            android:label="@string/title_activity_view_individual_student_analytics"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="SHOW.SNACKBAR.ADD.STUDENT"></action>
+                <action android:name="ADD.STUDENT.TO.LISTVIEW"></action>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".AddStudentToSystem"
+            android:label="@string/title_activity_add_student_to_system"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>
